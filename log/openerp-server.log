@@ -10252,3 +10252,955 @@ Traceback (most recent call last):
     res = self._obj.execute(query, params)
 InternalError: no such savepoint
 
+2015-10-27 21:07:23,547 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:08:30,386 55733 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 21:08:30,415 55733 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-10-27 21:08:30,545 55733 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 21:08:30,788 55733 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.24s, 0 queries
+2015-10-27 21:08:34,853 55733 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 21:08:34,857 55733 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 21:08:34,915 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:12:25,014 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:13:30,266 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:17:27,141 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:18:30,956 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:22:28,772 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:23:33,540 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:27:30,360 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:28:31,256 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:32:33,001 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:33:31,269 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:37:34,541 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:37:36,085 3011 ERROR bitnami_openerp openerp.addons.fetchmail.fetchmail: Failed to process mail from pop server Raul Romero POP.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/fetchmail/fetchmail.py", line 239, in fetch_mail
+    context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 1183, in message_process
+    routes = self.message_route(cr, uid, msg_txt, msg, model, thread_id, custom_values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 1068, in message_route
+    update_author=True, assert_model=True, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 837, in message_route_verify
+    raise ValueError('Routing: posting a message without model should be with a parent_id (private mesage).')
+ValueError: Routing: posting a message without model should be with a parent_id (private mesage).
+2015-10-27 21:38:31,241 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:42:36,836 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:43:31,239 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:47:38,281 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:48:31,796 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:52:40,691 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:53:33,336 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:57:42,269 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 21:58:40,572 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:58:58,950 55732 INFO bitnami_openerp openerp.service.common: successful login from 'raul.romero@emproltda.com' using database 'bitnami_openerp'
+2015-10-27 21:59:03,664 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 21:59:04,368 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 22:00:00,443 55733 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-27 22:00:03,764 55733 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 22:00:04,014 55732 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 153, in _dispatch
+    rule, arguments = self._find_handler(return_rule=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_http.py", line 65, in _find_handler
+    return self.routing_map().bind_to_environ(request.httprequest.environ).match(return_rule=return_rule)
+  File "/opt/bitnami/python/lib/python2.7/site-packages/Werkzeug-0.8.3-py2.7.egg/werkzeug/routing.py", line 1423, in match
+    raise NotFound()
+NotFound: 404: Not Found
+2015-10-27 22:02:20,845 56491 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:02:21,284 56491 INFO ? openerp.http: HTTP Configuring static files
+2015-10-27 22:02:21,334 56491 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:02:21,367 56491 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-10-27 22:02:21,503 56491 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:02:22,100 56491 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.60s, 0 queries
+2015-10-27 22:02:26,339 56491 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:02:26,349 56491 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:02:31,886 56490 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:02:31,958 56490 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.07s, 0 queries
+2015-10-27 22:02:32,507 56490 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:02:32,837 56490 INFO bitnami_openerp openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:02:33,940 56490 INFO ? openerp.http: HTTP Configuring static files
+2015-10-27 22:02:34,249 56490 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 1.74s, 0 queries
+2015-10-27 22:02:38,544 56490 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:02:38,549 56490 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:02:38,577 56490 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:02:38,554 56490 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:02:38,658 56490 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:02:44,931 3011 INFO bitnami_openerp openerp.addons.fetchmail.fetchmail: start checking for new emails on pop server Raul Romero POP
+2015-10-27 22:03:17,652 56491 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-27 22:03:17,952 56490 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-27 22:03:25,326 56491 INFO bitnami_openerp openerp.service.common: successful login from 'raul.romero@emproltda.com' using database 'bitnami_openerp'
+2015-10-27 22:03:43,107 56491 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-27 22:05:53,435 56491 ERROR bitnami_openerp openerp.sql_db: bad query: delete from product_template where id IN (3)
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+IntegrityError: null value in column "product_id" violates not-null constraint
+DETAIL:  Failing row contains (12, null, 100.000, 2015-10-27 19:36:50.343369, null, 1, 30, 100.000, 1, 2015-10-27 19:36:13, 100.0, null, 8, 1, 16, null, null, confirmed, null, null, 2015-10-29 19:36:01, null, Cemento, 20, null, null, f, t, null, make_to_stock, 20, null, null, null, null, 17, 31, 2015-10-27 19:37:13.19655, null, null, none).
+CONTEXT:  SQL statement "UPDATE ONLY "public"."stock_move" SET "product_id" = NULL WHERE $1 OPERATOR(pg_catalog.=) "product_id""
+
+2015-10-27 22:05:53,437 56491 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 149, in wrapper
+    raise openerp.osv.orm.except_orm(_('Integrity Error'), msg)
+except_orm: ('Integrity Error', 'The operation cannot be completed, probably due to the following:\n- deletion: you may be trying to delete a record while other records still reference it\n- creation/update: a mandatory field is not correctly set\n\n[object with reference: Stock Move - stock.move]')
+2015-10-27 22:10:00,050 56490 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 936, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3931, in _write
+    recs._validate_fields(vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 1267, in _validate_fields
+    raise ValidationError('\n'.join(errors))
+ValidationError: ('ValidateError', u'Field(s) `ean13` failed against a constraint: You provided an invalid "EAN13 Barcode" reference. You may use the "Internal Reference" field instead.')
+2015-10-27 22:10:09,597 56491 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 936, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3931, in _write
+    recs._validate_fields(vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 1267, in _validate_fields
+    raise ValidationError('\n'.join(errors))
+ValidationError: ('ValidateError', u'Field(s) `ean13` failed against a constraint: You provided an invalid "EAN13 Barcode" reference. You may use the "Internal Reference" field instead.')
+2015-10-27 22:18:11,301 56491 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 936, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/product/product.py", line 760, in write
+    res = super(product_template, self).write(cr, uid, ids, vals, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3903, in _write
+    result += self._columns[field].set(cr, self, id, field, vals[field], user, context=rel_context) or []
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/osv/fields.py", line 1471, in set
+    self._fnct_inv(obj, cr, user, id, name, value, self._fnct_inv_arg, context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/osv/fields.py", line 1510, in _related_write
+    instance.write({self.arg[-1]: values})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3931, in _write
+    recs._validate_fields(vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 1267, in _validate_fields
+    raise ValidationError('\n'.join(errors))
+ValidationError: ('ValidateError', u'Field(s) `ean13` failed against a constraint: You provided an invalid "EAN13 Barcode" reference. You may use the "Internal Reference" field instead.')
+2015-10-27 22:18:26,319 56490 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 936, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/product/product.py", line 760, in write
+    res = super(product_template, self).write(cr, uid, ids, vals, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3903, in _write
+    result += self._columns[field].set(cr, self, id, field, vals[field], user, context=rel_context) or []
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/osv/fields.py", line 1471, in set
+    self._fnct_inv(obj, cr, user, id, name, value, self._fnct_inv_arg, context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/osv/fields.py", line 1510, in _related_write
+    instance.write({self.arg[-1]: values})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3931, in _write
+    recs._validate_fields(vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 1267, in _validate_fields
+    raise ValidationError('\n'.join(errors))
+ValidationError: ('ValidateError', u'Field(s) `ean13` failed against a constraint: You provided an invalid "EAN13 Barcode" reference. You may use the "Internal Reference" field instead.')
+2015-10-27 22:18:34,086 56491 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 936, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/product/product.py", line 760, in write
+    res = super(product_template, self).write(cr, uid, ids, vals, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3903, in _write
+    result += self._columns[field].set(cr, self, id, field, vals[field], user, context=rel_context) or []
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/osv/fields.py", line 1471, in set
+    self._fnct_inv(obj, cr, user, id, name, value, self._fnct_inv_arg, context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/osv/fields.py", line 1510, in _related_write
+    instance.write({self.arg[-1]: values})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/mail/mail_thread.py", line 434, in write
+    result = super(mail_thread, self).write(cr, uid, ids, values, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 363, in old_api
+    result = method(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3760, in write
+    self._write(old_vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 546, in new_api
+    result = method(self._model, cr, uid, self.ids, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3931, in _write
+    recs._validate_fields(vals)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 1267, in _validate_fields
+    raise ValidationError('\n'.join(errors))
+ValidationError: ('ValidateError', u'Field(s) `ean13` failed against a constraint: You provided an invalid "EAN13 Barcode" reference. You may use the "Internal Reference" field instead.')
+2015-10-27 22:18:50,233 56491 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-27 22:39:30,823 56975 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:39:30,933 56975 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.11s, 0 queries
+2015-10-27 22:39:32,224 56975 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:39:32,832 56975 INFO bitnami_openerp openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:39:36,359 56975 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 4.13s, 0 queries
+2015-10-27 22:39:37,973 56974 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:39:42,190 56975 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:39:42,199 56975 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:39:43,129 56974 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:39:43,164 56974 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-10-27 22:39:43,300 56974 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:39:44,142 56974 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.84s, 0 queries
+2015-10-27 22:39:48,727 56974 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:39:48,737 56974 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:39:48,759 56974 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:39:55,361 56974 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 940, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 393, in old_api
+    result = new_api(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 397, in new_api
+    result = [method(rec, *args, **kwargs) for rec in self]
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/wizard/base_module_update.py", line 15, in update_module
+    self.updated, self.added = self.env['ir.module.module'].update_list()
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 462, in new_api
+    result = method(self._model, cr, uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 618, in update_list
+    for mod_name in modules.get_modules():
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/module.py", line 351, in get_modules
+    plist.extend(listdir(ad))
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/module.py", line 346, in listdir
+    return map(clean, filter(is_really_module, os.listdir(dir)))
+OSError: [Errno 2] No such file or directory: '/usr/sbin/ ../custom_modules'
+2015-10-27 22:40:56,550 56975 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 940, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 393, in old_api
+    result = new_api(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 397, in new_api
+    result = [method(rec, *args, **kwargs) for rec in self]
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/wizard/base_module_update.py", line 15, in update_module
+    self.updated, self.added = self.env['ir.module.module'].update_list()
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 462, in new_api
+    result = method(self._model, cr, uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 618, in update_list
+    for mod_name in modules.get_modules():
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/module.py", line 351, in get_modules
+    plist.extend(listdir(ad))
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/module.py", line 346, in listdir
+    return map(clean, filter(is_really_module, os.listdir(dir)))
+OSError: [Errno 2] No such file or directory: '/usr/sbin/ ../custom_modules'
+2015-10-27 22:41:18,030 57068 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:41:26,141 57069 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:41:29,423 57068 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:41:29,461 57068 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.04s, 0 queries
+2015-10-27 22:41:29,594 57068 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:41:30,193 57068 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.60s, 0 queries
+2015-10-27 22:41:34,656 57068 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:41:34,665 57068 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:41:35,353 57068 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 940, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 393, in old_api
+    result = new_api(recs, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 397, in new_api
+    result = [method(rec, *args, **kwargs) for rec in self]
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/wizard/base_module_update.py", line 15, in update_module
+    self.updated, self.added = self.env['ir.module.module'].update_list()
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 239, in wrapper
+    return new_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 462, in new_api
+    result = method(self._model, cr, uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 618, in update_list
+    for mod_name in modules.get_modules():
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/module.py", line 351, in get_modules
+    plist.extend(listdir(ad))
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/module.py", line 346, in listdir
+    return map(clean, filter(is_really_module, os.listdir(dir)))
+OSError: [Errno 2] No such file or directory: '/usr/sbin/ /opt/bitnami/apps/odoo/custom_modules'
+2015-10-27 22:43:33,607 57150 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:43:43,320 57151 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:45:22,414 57247 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:45:22,832 57247 INFO ? openerp.http: HTTP Configuring static files
+2015-10-27 22:45:22,885 57247 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:45:22,924 57247 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.04s, 0 queries
+2015-10-27 22:45:23,061 57247 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:45:23,784 57247 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.72s, 0 queries
+2015-10-27 22:45:28,177 57247 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:45:28,187 57247 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-27 22:45:40,247 57248 INFO ? openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2015-10-27 22:45:40,665 57248 INFO ? openerp.http: HTTP Configuring static files
+2015-10-27 22:45:40,722 57248 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-27 22:45:40,760 57248 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.04s, 0 queries
+2015-10-27 22:45:40,904 57248 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-27 22:45:41,564 57248 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.66s, 0 queries
+2015-10-27 22:45:46,048 57248 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-27 22:45:46,058 57248 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-28 02:09:03,055 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Started by cron
+2015-10-28 02:09:03,059 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Ended by cron
+2015-10-28 14:08:50,918 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Started by cron
+2015-10-28 14:08:50,919 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Ended by cron
+2015-10-28 21:16:00,965 57247 INFO bitnami_openerp openerp.addons.base.res.res_users: Login failed for db:bitnami_openerp login:webmaster@emproltda.com
+2015-10-28 21:16:27,760 57248 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-28 21:18:37,853 57247 INFO bitnami_openerp openerp.addons.mail.mail_mail: Mail with ID 67 and Message-Id u'<1446067117.233618974685669.852518089584605-openerp-4-hr.holidays@bitnami-odoo-1e16>' successfully sent
+2015-10-28 21:18:38,658 57247 INFO bitnami_openerp openerp.addons.mail.mail_mail: Mail with ID 68 and Message-Id u'<1446067118.038412094116211.539948829820617-openerp-4-hr.holidays@bitnami-odoo-1e16>' successfully sent
+2015-10-28 21:18:38,961 57247 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-28 21:18:39,205 57248 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-28 21:20:42,848 57248 INFO bitnami_openerp openerp.addons.mail.mail_mail: Mail with ID 69 and Message-Id u'<1446067242.372421979904175.507170422864328-openerp-30-res.users@bitnami-odoo-1e16>' successfully sent
+2015-10-28 21:20:42,897 57248 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-28 21:20:43,278 57247 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-28 21:21:41,705 57247 INFO bitnami_openerp openerp.addons.auth_oauth.controllers.main: OAuth2: access denied, redirect to main page in case a valid session exists, without setting cookies
+2015-10-28 21:22:07,099 57247 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-28 21:22:07,309 57248 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-28 21:22:25,309 57247 INFO bitnami_openerp openerp.service.common: successful login from 'scalle@emproltda.com' using database 'bitnami_openerp'
+2015-10-28 21:22:41,038 57247 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-28 21:22:41,300 57248 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-28 21:22:43,840 57248 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-28 21:22:44,040 57247 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-28 21:23:24,794 57248 WARNING bitnami_openerp openerp.addons.base.ir.ir_model: Access Denied by ACLs for operation: read, uid: 30, model: account.period
+2015-10-28 21:23:24,795 57248 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 936, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/account/account.py", line 1060, in name_search
+    ids = self.search(cr, user, expression.AND([domain, args]), limit=limit, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 1639, in search
+    return self._search(cr, user, args, offset=offset, limit=limit, order=order, context=context, count=count)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 4615, in _search
+    self.check_access_rights(cr, access_rights_uid or user, 'read')
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/models.py", line 3477, in check_access_rights
+    return self.pool.get('ir.model.access').check(cr, uid, self._name, operation, raise_exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "<string>", line 2, in check
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/cache.py", line 122, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_model.py", line 800, in check
+    raise openerp.exceptions.AccessError(msg % msg_params)
+AccessError: ('AccessError', u'Lo siento, no est\xe1 autorizado para acceder a este documento. S\xf3lo usuarios con los siguientes permisos est\xe1n autorizados a hacer esto:\n- Human Resources/Officer\n\t- Accounting & Finance/Invoicing & Payments\n\t- Accounting & Finance/Financial Manager\n\n(Modelo de documento: account.period)')
+2015-10-28 21:24:55,309 57248 INFO bitnami_openerp openerp.modules.registry: At least one model cache has been cleared, signaling through the database.
+2015-10-28 21:24:55,761 57247 INFO bitnami_openerp openerp.modules.registry: Invalidating all model caches after database signaling.
+2015-10-28 21:25:08,003 57248 INFO bitnami_openerp openerp.service.common: successful login from 'scalle@emproltda.com' using database 'bitnami_openerp'
+2015-10-28 21:32:21,292 3011 INFO bitnami_openerp openerp.addons.mail.mail_mail: Mail with ID 70 and Message-Id u'<1446067118.894936084747314.968850889786278-openerp-31-hr.employee@bitnami-odoo-1e16>' successfully sent
+2015-10-29 02:08:39,700 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Started by cron
+2015-10-29 02:08:39,700 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Ended by cron
+2015-10-29 14:08:27,194 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Started by cron
+2015-10-29 14:08:27,195 3011 INFO bitnami_openerp openerp.addons.google_calendar.google_calendar: Calendar Synchro - Ended by cron
+2015-10-29 20:19:18,967 57247 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 20:36:24,485 57248 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 20:36:29,266 57247 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 21:33:13,786 57247 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 21:36:52,083 3034 ERROR bitnami_openerp openerp.sql_db: bad query: UPDATE "im_chat_presence" SET "status"='online',"last_poll"='2015-10-29 21:36:52',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+TransactionRollbackError: could not serialize access due to concurrent update
+
+2015-10-29 21:36:52,084 3034 INFO bitnami_openerp openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.6716 sec...
+2015-10-29 21:38:51,352 57247 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 21:43:50,615 3034 ERROR bitnami_openerp openerp.sql_db: bad query: UPDATE "im_chat_presence" SET "status"='online',"last_poll"='2015-10-29 21:43:50',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+TransactionRollbackError: could not serialize access due to concurrent update
+
+2015-10-29 21:43:50,615 3034 INFO bitnami_openerp openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.3898 sec...
+2015-10-29 21:48:14,484 3034 ERROR bitnami_openerp openerp.sql_db: bad query: UPDATE "im_chat_presence" SET "status"='away',"last_poll"='2015-10-29 21:48:14',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+TransactionRollbackError: could not serialize access due to concurrent update
+
+2015-10-29 21:48:14,485 3034 INFO bitnami_openerp openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.2289 sec...
+2015-10-29 21:49:59,320 3034 ERROR bitnami_openerp openerp.sql_db: bad query: UPDATE "im_chat_presence" SET "status"='away',"last_poll"='2015-10-29 21:49:59',"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/sql_db.py", line 234, in execute
+    res = self._obj.execute(query, params)
+TransactionRollbackError: could not serialize access due to concurrent update
+
+2015-10-29 21:49:59,321 3034 INFO bitnami_openerp openerp.service.model: SERIALIZATION_FAILURE, retry 1/5 in 0.8786 sec...
+2015-10-29 22:15:33,797 57247 INFO bitnami_openerp openerp.service.common: successful login from 'raul.romero@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 22:20:50,040 57247 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-29 22:20:50,069 57247 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-10-29 22:20:50,855 57247 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-29 22:20:51,127 57247 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.27s, 0 queries
+2015-10-29 22:20:51,142 57247 INFO bitnami_openerp openerp.modules.loading: loading 82 modules...
+2015-10-29 22:20:55,327 57247 INFO bitnami_openerp openerp.modules.module: module empro_fleet_hoursmeter: creating or updating database tables
+2015-10-29 22:20:57,717 57247 INFO bitnami_openerp openerp.models: storing computed values of fields.function 'name'
+2015-10-29 22:20:57,722 57247 WARNING bitnami_openerp openerp.addons.base.module.module: module empro_fleet_hoursmeter: description is empty !
+2015-10-29 22:20:57,722 57247 INFO bitnami_openerp openerp.modules.loading: loading empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml
+2015-10-29 22:20:58,173 57247 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 940, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 450, in button_immediate_install
+    return self._button_immediate_function(cr, uid, ids, self.button_install, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 498, in _button_immediate_function
+    registry = openerp.modules.registry.RegistryManager.new(cr.dbname, update_module=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/registry.py", line 368, in new
+    openerp.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 355, in load_modules
+    loaded_modules, update_module)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 255, in load_marked_modules
+    loaded, processed = load_module_graph(cr, graph, progressdict, report=report, skip_modules=loaded_modules, perform_checks=perform_checks)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 176, in load_module_graph
+    _load_data(cr, module_name, idref, mode, kind='data')
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 118, in _load_data
+    tools.convert_file(cr, module_name, filename, idref, mode, noupdate, kind, report)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 901, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 987, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 853, in parse
+    self._tags[rec.tag](self.cr, rec, n, mode=mode)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 568, in _tag_menuitem
+    menu_parent_id = self.id_get(cr, rec.get('parent',''))
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 832, in id_get
+    res = self.model_id_get(cr, id_str, raise_if_not_found)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 843, in model_id_get
+    raise_if_not_found=raise_if_not_found)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_model.py", line 936, in xmlid_to_res_model_res_id
+    return self.xmlid_lookup(cr, uid, xmlid)[1:3]
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "<string>", line 2, in xmlid_lookup
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/cache.py", line 74, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_model.py", line 926, in xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % (xmlid))
+ParseError: "External ID not found in the system: empro_fleet_hoursmeter.fleet_vehicles" while parsing /opt/bitnami/apps/odoo/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml:79, near
+<menuitem action="fleet_vehicle_hoursmeter_act" parent="fleet_vehicles" id="fleet_vehicle_hoursmeter_menu" groups="group_fleet_user"/>
+2015-10-29 22:23:20,518 57247 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-29 22:23:20,576 57247 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.06s, 0 queries
+2015-10-29 22:23:20,736 57247 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-29 22:23:20,964 57247 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.23s, 0 queries
+2015-10-29 22:23:25,495 57247 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-29 22:23:25,504 57247 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-29 22:23:25,515 57247 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-29 22:30:37,482 57248 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-29 22:30:37,505 57248 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2015-10-29 22:30:38,252 57248 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-29 22:30:38,491 57248 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.24s, 0 queries
+2015-10-29 22:30:38,503 57248 INFO bitnami_openerp openerp.modules.loading: loading 82 modules...
+2015-10-29 22:30:42,897 57248 INFO bitnami_openerp openerp.modules.module: module empro_fleet_hoursmeter: creating or updating database tables
+2015-10-29 22:30:43,129 57248 WARNING bitnami_openerp openerp.addons.base.module.module: module empro_fleet_hoursmeter: description is empty !
+2015-10-29 22:30:43,130 57248 INFO bitnami_openerp openerp.modules.loading: loading empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml
+2015-10-29 22:30:43,468 57248 ERROR bitnami_openerp openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/service/model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 940, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/web/controllers/main.py", line 928, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 450, in button_immediate_install
+    return self._button_immediate_function(cr, uid, ids, self.button_install, context=context)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/module/module.py", line 498, in _button_immediate_function
+    registry = openerp.modules.registry.RegistryManager.new(cr.dbname, update_module=True)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/registry.py", line 368, in new
+    openerp.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 355, in load_modules
+    loaded_modules, update_module)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 255, in load_marked_modules
+    loaded, processed = load_module_graph(cr, graph, progressdict, report=report, skip_modules=loaded_modules, perform_checks=perform_checks)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 176, in load_module_graph
+    _load_data(cr, module_name, idref, mode, kind='data')
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/modules/loading.py", line 118, in _load_data
+    tools.convert_file(cr, module_name, filename, idref, mode, noupdate, kind, report)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 901, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 987, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 853, in parse
+    self._tags[rec.tag](self.cr, rec, n, mode=mode)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 610, in _tag_menuitem
+    group_id = self.id_get(cr, group)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 832, in id_get
+    res = self.model_id_get(cr, id_str, raise_if_not_found)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/convert.py", line 843, in model_id_get
+    raise_if_not_found=raise_if_not_found)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_model.py", line 936, in xmlid_to_res_model_res_id
+    return self.xmlid_lookup(cr, uid, xmlid)[1:3]
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "<string>", line 2, in xmlid_lookup
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/tools/cache.py", line 74, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/opt/bitnami/apps/odoo/lib/odoo-8.0_20150423-py2.7.egg/openerp/addons/base/ir/ir_model.py", line 926, in xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % (xmlid))
+ParseError: "External ID not found in the system: empro_fleet_hoursmeter.group_fleet_user" while parsing /opt/bitnami/apps/odoo/custom_modules/empro_fleet_hoursmeter/empro_fleet_hoursmeter.xml:79, near
+<menuitem action="fleet_vehicle_hoursmeter_act" parent="fleet.fleet_vehicles" id="fleet_vehicle_hoursmeter_menu" groups="group_fleet_user"/>
+2015-10-29 22:30:47,734 57248 INFO bitnami_openerp openerp.modules.loading: loading 1 modules...
+2015-10-29 22:30:47,758 57248 INFO bitnami_openerp openerp.modules.loading: 1 modules loaded in 0.02s, 0 queries
+2015-10-29 22:30:47,888 57248 INFO bitnami_openerp openerp.modules.loading: loading 81 modules...
+2015-10-29 22:30:48,112 57248 INFO bitnami_openerp openerp.modules.loading: 81 modules loaded in 0.22s, 0 queries
+2015-10-29 22:30:52,688 57248 INFO bitnami_openerp openerp.modules.loading: Modules loaded.
+2015-10-29 22:30:52,696 57248 INFO bitnami_openerp openerp.addons.base.ir.ir_http: Generating routing map
+2015-10-29 22:31:05,886 57248 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
+2015-10-29 22:31:36,730 57248 INFO bitnami_openerp openerp.service.common: successful login from 'webmaster@emproltda.com' using database 'bitnami_openerp'
