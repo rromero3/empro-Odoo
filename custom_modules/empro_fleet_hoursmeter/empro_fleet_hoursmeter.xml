@@ -76,7 +76,7 @@
             </field>
         </record>
 
-        <menuitem action="fleet_vehicle_hoursmeter_act" parent="fleet_vehicles" id="fleet_vehicle_hoursmeter_menu" groups="group_fleet_user"/>
+        <menuitem action="fleet_vehicle_hoursmeter_act" parent="fleet.fleet_vehicles" id="fleet_vehicle_hoursmeter_menu" groups="group_fleet_user"/>
 
   </data>
 </openerp>
