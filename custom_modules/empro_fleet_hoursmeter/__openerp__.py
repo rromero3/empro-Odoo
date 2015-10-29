@@ -4,7 +4,7 @@
     'author': "Raul Romero",
     'category': "Tools",
     'depends': ['fleet'],
-    'data': [],
+    'data': ['empro_fleet_hoursmeter.xml'],
     'demo': [],
     'installable': True,
 }
