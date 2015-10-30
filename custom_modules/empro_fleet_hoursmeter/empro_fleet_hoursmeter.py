@@ -25,6 +25,10 @@ class fleet_vehicle_hoursmeter(osv.Model):
             res[record.id] = name
         return res
 
+    def on_change_vehicle(self, cr, uid, ids, vehicle_id, context=None):
+        if not vehicle_id:
+            return {}
+
     _columns = {
         'name': fields.function(_vehicle_log_name_get_fnc, type="char", string='Name', store=True),
         'date': fields.date('Date'),
