@@ -1,6 +1,6 @@
 {
     'name': "Empro fleet hoursmeter integration",
-    'version': "1.0",
+    'version': "1.1",
     'author': "Raul Romero",
     'category': "Tools",
     'depends': ['fleet'],
