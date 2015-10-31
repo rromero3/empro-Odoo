@@ -4,7 +4,7 @@
         <record id="fleet_user_hoursmeter_visibility" model="ir.rule">
             <field name="name">User can only see his/her vehicle's odometer</field>
             <field name="model_id" ref="model_fleet_vehicle_hoursmeter"/>
-            <field name="groups" eval="[(4, ref('group_fleet_user'))]"/>
+            <field name="groups" eval="[(4, ref('fleet.group_fleet_user'))]"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
             <field name="perm_create" eval="True"/>
@@ -14,7 +14,7 @@
         <record id="fleet_user_hoursmeter_visibility_manager" model="ir.rule">
             <field name="name">Manager has all rights on vehicle's vehicle's hoursmeter</field>
             <field name="model_id" ref="model_fleet_vehicle_hoursmeter"/>
-            <field name="groups" eval="[(4, ref('group_fleet_manager'))]"/>
+            <field name="groups" eval="[(4, ref('fleet.group_fleet_manager'))]"/>
         </record>
 
     </data>
