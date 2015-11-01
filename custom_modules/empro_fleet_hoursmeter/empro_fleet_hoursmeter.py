@@ -44,8 +44,35 @@ class empro_vehicle(osv.osv):
 
   _inherit = "fleet.vehicle"
 
+  def _count_hoursmeter(self, cr, uid, ids, field_name, arg, context=None):
+        Hoursmeter = self.pool['fleet.vehicle.hoursmeter']
+        return {
+            vehicle_id: {
+                'hoursmeter_count': Hoursmeter.search_count(cr, uid, [('vehicle_id', '=', vehicle_id)], context=context),
+               }
+            for vehicle_id in ids
+        }
+
+  def _get_hoursmeter(self, cr, uid, ids, odometer_id, arg, context):
+        res = dict.fromkeys(ids, 0)
+        for record in self.browse(cr,uid,ids,context=context):
+            ids = self.pool.get('fleet.vehicle.hoursmeter').search(cr, uid, [('vehicle_id', '=', record.id)], limit=1, order='value desc')
+            if len(ids) > 0:
+                res[record.id] = self.pool.get('fleet.vehicle.hoursmeter').browse(cr, uid, ids[0], context=context).value
+        return res
+
+  def _set_hoursmeter(self, cr, uid, id, name, value, args=None, context=None):
+        if value:
+            date = fields.date.context_today(self, cr, uid, context=context)
+            data = {'value': value, 'date': date, 'vehicle_id': id}
+            return self.pool.get('fleet.vehicle.hoursmeter').create(cr, uid, data, context=context)
+
+
   _columns = {
-    'vehicle_code': fields.text('Empro Code')
+    'vehicle_code': fields.char('Empro Code', required=True),
+    'hoursmeter_count': fields.function(_count_hoursmeter, type='integer', string='Hoursmeter', multi=True),
+    'hoursmeter': fields.function(_get_hoursmeter, fnct_inv=_set_hoursmeter, type='float', string='Last Hoursmeter', help='Hoursmeter measure of the vehicle at the moment of this log'),
+
   }
 
   _defaults ={
