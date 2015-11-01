@@ -39,3 +39,17 @@ class fleet_vehicle_hoursmeter(osv.Model):
     _defaults = {
         'date': fields.date.context_today,
     }
+
+class empro_vehicle(osv.osv):
+
+  _inherit = "fleet.vehicle"
+
+  _columns = {
+    'vehicle_code': fields.text('Empro Code')
+  }
+
+  _defaults ={
+    'vehicle_code': 'XXX-000'
+  }
+
+empro_vehicle()
