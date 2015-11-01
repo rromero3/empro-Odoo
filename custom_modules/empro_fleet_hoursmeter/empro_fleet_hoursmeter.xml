@@ -93,7 +93,7 @@
             </xpath>
             <xpath expr="/form[@string='Vehicle']/sheet/div[2]//button[5]" position="after">
                 <button name="return_action_to_open" type="object" class="oe_stat_button" icon="fa-tachometer" context="{'xml_id':'fleet_vehicle_hoursmeter_act'}" help="show the hoursmeter logs for this vehicle">
-                                <field name="odometer_count" widget="statinfo" string="Hoursmeter"/>
+                                <field name="hoursmeter_count" widget="statinfo" string="Hoursmeter"/>
                 </button>
             </xpath>
             <xpath expr="/form[@string='Vehicle']/sheet/group[1]/group[2]/div" position="after">
