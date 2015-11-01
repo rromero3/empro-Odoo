@@ -12,7 +12,6 @@
                             <field name="vehicle_id" on_change="on_change_vehicle(vehicle_id)"/>
                                 <div>
                                     <field name="value" class="oe_inline"/>
-                                    <field name="notes" class="oe_inline"/>
                                 </div>
                             <field name="date" />
                         </group>
