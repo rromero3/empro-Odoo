@@ -102,20 +102,5 @@
         </field>
         </record>
 
-        <record model="ir.ui.view" id="empro_vehicle_kanban">
-        <field name="name">fleet.vehicle.kanban</field>
-        <field name="model">fleet.vehicle</field>
-        <field name="inherit_id" ref="fleet.fleet_vehicle_kanban" />
-        <field name="arch" type="xml">
-            <xpath expr="/kanban//field[1]@name" position="after">
-                <field name="vehicle_code"/>
-            </xpath>
-
-            <xpath expr="/kanban/templates/t[@t-name='kanban-box'']/div[@class='oe_kanban_vignette oe_semantic_html_override']/div[@class='oe_kanban_details']/h4[@class='oe_partner_heading']/a[@type='open']//field[1]" position="before">
-                <field name="vehicle_code"/><br/>
-            </xpath>
-        </field>
-        </record>
-
   </data>
 </openerp>
