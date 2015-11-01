@@ -33,6 +33,7 @@ class fleet_vehicle_hoursmeter(osv.Model):
         'name': fields.function(_vehicle_log_name_get_fnc, type="char", string='Name', store=True),
         'date': fields.date('Date'),
         'value': fields.float('Hoursmeter Value', group_operator="max"),
+        'notes': fields.text('Notes'),
         'vehicle_id': fields.many2one('fleet.vehicle', 'Vehicle', required=True)
     }
     _defaults = {

@@ -12,6 +12,7 @@
                             <field name="vehicle_id" on_change="on_change_vehicle(vehicle_id)"/>
                                 <div>
                                     <field name="value" class="oe_inline"/>
+                                    <field name="notes" class="oe_inline"/>
                                 </div>
                             <field name="date" />
                         </group>
@@ -28,7 +29,9 @@
                     <field name="date" />
                     <field name="vehicle_id" on_change="on_change_vehicle(vehicle_id)"/>
                     <field name="value" />
+                    <field name="notes"/>
                 </tree>
+
             </field>
         </record>
 
@@ -40,6 +43,7 @@
                     <field name="vehicle_id" />
                     <field name="value"/>
                     <field name="date"/>
+                    <field name="notes"/>
                     <group expand="0" string="Group By">
                         <filter name="groupby_vehicle" context="{'group_by' : 'vehicle_id'}" string="Vehicle"/>
                     </group>
