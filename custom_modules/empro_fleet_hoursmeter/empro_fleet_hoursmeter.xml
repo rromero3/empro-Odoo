@@ -86,10 +86,15 @@
         <field name="model">fleet.vehicle</field>
         <field name="inherit_id" ref="fleet.fleet_vehicle_form" />
         <field name="arch" type="xml">
-            <xpath expr="form[@string='Vehicle']/sheet/div[1]/h2" position="after">
+            <xpath expr="/form[@string='Vehicle']/sheet/div[1]/h2" position="after">
                 <label for="vehicle_code" class="oe_edit_only"/>
                             <h2>
                                 <field name="vehicle_code" class="oe_inline"/></h2>
+            </xpath>
+            <xpath expr="/form[@string='Vehicle']/sheet/div[2]//button[5]" position="after">
+                <button name="return_action_to_open" type="object" class="oe_stat_button" icon="fa-tachometer" context="{'xml_id':'fleet_vehicle_hoursmeter_act'}" help="show the hoursmeter logs for this vehicle">
+                                <field name="odometer_count" widget="statinfo" string="Hoursmeter"/>
+                </button>
             </xpath>
         </field>
         </record>
