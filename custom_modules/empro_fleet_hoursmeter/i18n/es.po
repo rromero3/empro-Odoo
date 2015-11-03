@@ -81,6 +81,16 @@ msgid "Notes"
 msgstr "Notas"
 
 #. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.year,year:0
+msgid "Year"
+msgstr "Año"
+
+#. module: empro_fleet_hoursmeter
+#: field:fleet.vehicle.is_rented,year:0
+msgid "Is Rented"
+msgstr "Esta Alquilado"
+
+#. module: empro_fleet_hoursmeter
 #: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_form
 #: view:fleet.vehicle.hoursmeter:empro_fleet_hoursmeter.fleet_vehicle_hoursmeter_tree
 msgid "Hoursmeter Logs"

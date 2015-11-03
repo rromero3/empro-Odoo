@@ -69,6 +69,8 @@ class empro_vehicle(osv.osv):
 
   _columns = {
     'vehicle_code': fields.char('Empro Code', required=True),
+    'year': fields.integer('Year'),
+    'is_rented': fields.Boolean('Is Rented'),
     'hoursmeter_count': fields.function(_count_hoursmeter, type='integer', string='Hoursmeter', multi=True),
     'hoursmeter': fields.function(_get_hoursmeter, fnct_inv=_set_hoursmeter, type='float', string='Last Hoursmeter', help='Hoursmeter measure of the vehicle at the moment of this log')
   }

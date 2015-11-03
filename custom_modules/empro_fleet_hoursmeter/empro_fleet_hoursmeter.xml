@@ -98,6 +98,8 @@
             </xpath>
             <xpath expr="/form[@string='Vehicle']/sheet/group[1]/group[2]/div" position="after">
                 <field name="hoursmeter" class="oe_inline"/>
+                <field name="year" class="oe_inline"/>
+                <field name="is_rented" class="oe_inline"/>
             </xpath>
         </field>
         </record>
