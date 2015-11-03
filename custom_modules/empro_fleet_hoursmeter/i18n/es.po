@@ -80,12 +80,12 @@ msgstr "Nombre"
 msgid "Notes"
 msgstr "Notas"
 
-#. module: empro_fleet_hoursmeter
+#. module: fleet
 #: field:fleet.vehicle.year,year:0
 msgid "Year"
 msgstr "Año"
 
-#. module: empro_fleet_hoursmeter
+#. module: fleet
 #: field:fleet.vehicle.is_rented,is_rented:0
 msgid "Is Rented"
 msgstr "Esta Alquilado"
