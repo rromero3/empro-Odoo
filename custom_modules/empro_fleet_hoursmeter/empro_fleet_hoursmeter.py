@@ -33,7 +33,7 @@ class fleet_vehicle_hoursmeter(osv.Model):
         'name': fields.function(_vehicle_log_name_get_fnc, type="char", string='Name', store=True),
         'date': fields.date('Date'),
         'value': fields.float('Hoursmeter Value', group_operator="max"),
-        'notes': fields.text('Notes'),
+        'notes': fields.char('Notes'),
         'vehicle_id': fields.many2one('fleet.vehicle', 'Vehicle', required=True)
     }
     _defaults = {
@@ -53,7 +53,7 @@ class empro_vehicle(osv.osv):
             for vehicle_id in ids
         }
 
-  def _get_hoursmeter(self, cr, uid, ids, odometer_id, arg, context):
+  def _get_hoursmeter(self, cr, uid, ids, hoursmeter_id, arg, context):
         res = dict.fromkeys(ids, 0)
         for record in self.browse(cr,uid,ids,context=context):
             ids = self.pool.get('fleet.vehicle.hoursmeter').search(cr, uid, [('vehicle_id', '=', record.id)], limit=1, order='value desc')
@@ -66,7 +66,6 @@ class empro_vehicle(osv.osv):
             date = fields.date.context_today(self, cr, uid, context=context)
             data = {'value': value, 'date': date, 'vehicle_id': id}
             return self.pool.get('fleet.vehicle.hoursmeter').create(cr, uid, data, context=context)
-
 
   _columns = {
     'vehicle_code': fields.char('Empro Code', required=True),
