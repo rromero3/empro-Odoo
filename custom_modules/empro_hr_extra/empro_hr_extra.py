@@ -1,6 +1,6 @@
 from openerp.osv import fields, osv
 import time
-from datetime import datetime
+import datetime
 from datetime import date
 from openerp import tools
 from openerp.osv.orm import except_orm
@@ -13,16 +13,6 @@ def str_to_datetime(strdate):
 
 class empro_employee(osv.osv):
     _inherit = "hr.employee"
-
-    def _get_years(self, cr, uid, ids, hired_years, args, context=None):
-        result = dict.fromkeys(ids, 0)
-        todays_year= datetime.date.today().year
-        for obj in self.browse(cr, uid, ids, context=context):
-            start_year = datetime.strptime(obj.start_date, "%Y-%m-%d").date()
-            rd = relativedelta(todays_year, start_year)
-            result[obj.id] = rd.years
-
-        return result
 
     _columns = {
         'employee_code': fields.char('Codigo Empro', required=True),
@@ -53,7 +43,7 @@ class empro_employee(osv.osv):
     def set_antiguedad(self):
         if self.start_date:
             dt = self.start_date
-            d2 = datetime.datetime.date.today()
+            d2 = datetime.datetime.now()
             rd = relativedelta(d2, dt)
             self.years_hired = d2.year - dt.year
             self.months_hired = rd.months
