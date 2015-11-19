@@ -1,6 +1,6 @@
 {
     'name': "Empro hr extra fields integration",
-    'version': "1.3",
+    'version': "1.4",
     'author': "Raul Romero",
     'category': "Tools",
     'depends': ['hr'],

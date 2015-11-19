@@ -45,9 +45,9 @@ class empro_employee(osv.osv):
     @api.onchange('start_date')
     def set_antiguedad(self):
         if self.start_date:
-            dt = str_to_datetime(self.start_date)
-            d2 = datetime.datetime.now()
-            rd = relativedelta(d2, dt)
+            start_date = str_to_datetime(self.start_date)
+            today_date = datetime.datetime.now()
+            rd = relativedelta(today_date, start_date)
             self.years_hired = rd.years
             self.months_hired = rd.months
             self.days_hired = rd.days
@@ -55,9 +55,9 @@ class empro_employee(osv.osv):
     @api.onchange('last_settlement')
     def set_antiguedad(self):
         if self.start_date:
-            dt = str_to_datetime(self.last_settlement)
-            d2 = datetime.datetime.now()
-            rd = relativedelta(d2, dt)
+            last_settlement = str_to_datetime(self.last_settlement)
+            today_date = datetime.datetime.date()
+            rd = relativedelta(today_date, last_settlement)
             self.years_settlement = rd.years
             self.months_settlement = rd.months
             self.days_settlement = rd.days
