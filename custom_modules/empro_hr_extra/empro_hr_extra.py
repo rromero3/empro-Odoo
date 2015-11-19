@@ -56,7 +56,7 @@ class empro_employee(osv.osv):
             ## d1 = datetime.strptime(dt, "%Y-%m-%d").date()
             d2 = datetime.date.today()
             rd = relativedelta(d2, dt)
-            self.years_hired = rd.years
+            self.years_hired = d2.year - dt.year
             self.months_hired = rd.months
             self.days_hired = rd.days
 
