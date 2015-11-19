@@ -20,7 +20,7 @@
                             </h1>
             </xpath>
 
-            <xpath expr="/form[@string='Employee']/sheet/notebook/page[3]/group/group[@string='Active']/field[@name='active'']" position="after">
+            <xpath expr="/form[@string='Employee']/sheet/notebook/page[3]/group/group[@string='Active']/field[@name='active']" position="after">
                  <label for="years_hired"/>
                  <field name="years_hired"/>
             </xpath>

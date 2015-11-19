@@ -16,7 +16,8 @@ class empro_employee(osv.osv):
         result = dict.fromkeys(ids, 0)
         todays_year= datetime.date.today().year
         for obj in self.browse(cr, uid, ids, context=context):
-            result[obj.id] = todays_year - obj.start_date.year
+            start_year = datetime.strptime(obj.start_date, "%Y-%m-%d").date().year
+            result[obj.id] = todays_year - start_year
         return result
 
     _columns = {
