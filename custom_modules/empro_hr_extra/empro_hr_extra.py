@@ -30,7 +30,12 @@ class empro_employee(osv.osv):
         'exit_reason': fields.char('Razon de Salida'),
         'years_hired': fields.integer('Anos Contratados'),
         'months_hired': fields.integer('Meses Contratados'),
-        'days_hired': fields.integer('Dias Contratados')
+        'days_hired': fields.integer('Dias Contratados'),
+        'start_project': fields.char('Primer Proyecto'),
+        'last_settlement' : fields.date("Ultima Liquidacion"),
+        'years_settlement': fields.integer('Anos para liquidacion'),
+        'months_settlement': fields.integer('Meses para liquidacion'),
+        'days_settlement': fields.integer('Dias para liquidacion'),
     }
 
     _defaults ={
@@ -46,5 +51,15 @@ class empro_employee(osv.osv):
             self.years_hired = rd.years
             self.months_hired = rd.months
             self.days_hired = rd.days
+
+    @api.onchange('last_settlement')
+    def set_antiguedad(self):
+        if self.start_date:
+            dt = str_to_datetime(self.last_settlement)
+            d2 = datetime.datetime.now()
+            rd = relativedelta(d2, dt)
+            self.years_settlement = rd.years
+            self.months_settlement = rd.months
+            self.days_settlement = rd.days
 
 empro_employee()

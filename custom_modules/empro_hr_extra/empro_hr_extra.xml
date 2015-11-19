@@ -23,9 +23,13 @@
             <xpath expr="/form[@string='Employee']/sheet/notebook/page[3]/group" position="after">
                     <group string="Antiguedad" name="antiguedad_group">
                         <field name="start_date" />
-                         <field name="years_hired" class="oe_read_only"/>
-                          <field name="months_hired" class="oe_read_only"/>
-                          <field name="days_hired" class="oe_read_only"/>
+                        <field name="years_hired" class="oe_read_only"/>
+                        <field name="months_hired" class="oe_read_only"/>
+                        <field name="days_hired" class="oe_read_only"/>
+                        <h3><field name="last_settlement" /></h3>
+                        <field name="years_settlement" class="oe_read_only"/>
+                        <field name="months_settlement" class="oe_read_only"/>
+                        <field name="days_settlement" class="oe_read_only"/>
                     </group>
 
             </xpath>
