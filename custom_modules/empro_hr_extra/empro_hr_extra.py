@@ -53,7 +53,7 @@ class empro_employee(osv.osv):
     def set_antiguedad(self):
         if self.start_date:
             dt = self.start_date
-            d2 = datetime.date.today()
+            d2 = datetime.datetime.date.today()
             rd = relativedelta(d2, dt)
             self.years_hired = d2.year - dt.year
             self.months_hired = rd.months
