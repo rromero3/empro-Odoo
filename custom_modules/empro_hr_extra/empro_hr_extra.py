@@ -53,7 +53,7 @@ class empro_employee(osv.osv):
             self.days_hired = rd.days
 
     @api.onchange('last_settlement')
-    def set_antiguedad(self):
+    def set_liquidacion(self):
         if self.start_date:
             last_settlement = str_to_datetime(self.last_settlement)
             today_date = datetime.datetime.date()
