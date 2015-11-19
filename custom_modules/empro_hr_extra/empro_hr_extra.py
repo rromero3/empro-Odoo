@@ -16,9 +16,10 @@ class empro_employee(osv.osv):
         result = dict.fromkeys(ids, 0)
         todays_year= datetime.date.today().year
         for obj in self.browse(cr, uid, ids, context=context):
-            start_year = datetime.strptime(obj.start_date, "%Y-%m-%d").date().year
-            result[obj.id] = todays_year - start_year
-            
+            start_year = datetime.strptime(obj.start_date, "%Y-%m-%d").date()
+            rd = relativedelta(todays_year, start_year)
+            result[obj.id] = rd.years
+
         return result
 
     _columns = {
