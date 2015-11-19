@@ -1,6 +1,7 @@
 from openerp.osv import fields, osv
 import time
 import datetime
+from datetime import date
 from openerp import tools
 from openerp.osv.orm import except_orm
 from openerp.tools.translate import _
