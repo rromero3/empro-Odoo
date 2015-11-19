@@ -35,7 +35,7 @@ class empro_employee(osv.osv):
         'last_settlement' : fields.date("Ultima Liquidacion"),
         'years_settlement': fields.integer('Anos para liquidacion'),
         'months_settlement': fields.integer('Meses para liquidacion'),
-        'days_settlement': fields.integer('Dias para liquidacion'),
+        'days_settlement': fields.integer('Dias para liquidacion')
     }
 
     _defaults ={
