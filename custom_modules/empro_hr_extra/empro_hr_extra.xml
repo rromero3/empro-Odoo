@@ -19,6 +19,15 @@
                                 <field name="employee_code"/>
                             </h1>
             </xpath>
+
+            <xpath expr="/form[@string='Employee']/sheet/notebook/page[3]/group/group[@string='Contract']/field[last]" position="after">
+                 <label for="years_hired"/>
+                 <field name="years_hired"/>
+            </xpath>
+
+
+
+
         </field>
         </record>
 
