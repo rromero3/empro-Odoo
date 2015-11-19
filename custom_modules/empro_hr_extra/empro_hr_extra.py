@@ -18,6 +18,7 @@ class empro_employee(osv.osv):
         for obj in self.browse(cr, uid, ids, context=context):
             start_year = datetime.strptime(obj.start_date, "%Y-%m-%d").date().year
             result[obj.id] = todays_year - start_year
+            
         return result
 
     _columns = {
