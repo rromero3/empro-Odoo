@@ -5,7 +5,7 @@ from openerp import tools
 from openerp.osv.orm import except_orm
 from openerp.tools.translate import _
 from dateutil.relativedelta import relativedelta
-from openerp import fields, models, api
+from openerp import api
 
 def str_to_datetime(strdate):
     return datetime.datetime.strptime(strdate, tools.DEFAULT_SERVER_DATE_FORMAT)
