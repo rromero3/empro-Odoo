@@ -38,11 +38,25 @@ class empro_employee(osv.osv):
         'start_date' : fields.date("Fecha de Inicio", required=True),
         'end_date' : fields.date("Fecha de Salida"),
         'exit_reason': fields.char('Razon de Salida'),
-        'years_hired': fields.function(_get_years, string="Anos contratado",type="integer",multi=True )
+        'years_hired': fields.integer('Anos Contratados'),
+        'months_hired': fields.integer('Meses Contratados'),
+        'days_hired': fields.integer('Dias Contratados')
     }
 
     _defaults ={
         'start_date': datetime.date.today()
     }
+
+    @api.onchange('start_date')
+    def set_dates_hired(self):
+        for rec in self:
+            if rec.start_date:
+                dt = rec.start_date
+                d1 = datetime.strptime(dt, "%Y-%m-%d").date()
+                d2 = datetime.date.today()
+                rd = relativedelta(d2, d1)
+                rec.years_hired = str(rd.years)
+                rec.months_hired = str(rd.months)
+                rec.days_hired = str(rd.days)
 
 empro_employee()
