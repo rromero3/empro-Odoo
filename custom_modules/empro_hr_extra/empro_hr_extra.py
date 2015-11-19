@@ -40,10 +40,10 @@ class empro_employee(osv.osv):
     @api.onchange('start_date')
     def set_antiguedad(self):
         if self.start_date:
-            dt = self.start_date
+            dt = str_to_datetime(self.start_date)
             d2 = datetime.datetime.now()
             rd = relativedelta(d2, dt)
-            self.years_hired = d2.year - dt.year
+            self.years_hired = rd.years
             self.months_hired = rd.months
             self.days_hired = rd.days
 
