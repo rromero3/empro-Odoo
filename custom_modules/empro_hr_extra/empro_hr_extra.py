@@ -35,11 +35,7 @@ class empro_employee(osv.osv):
         'start_date' : fields.date("Fecha de Inicio", required=True),
         'end_date' : fields.date("Fecha de Salida"),
         'exit_reason': fields.char('Razon de Salida'),
-        'years_hired': fields.function(_get_years,
-                                     string="Años contratado",
-                                     type="integer",
-                                     multi=True
-                                       )
+        'years_hired': fields.function(_get_years, string="Anos contratado",type="integer",multi=True )
     }
 
     _defaults ={
