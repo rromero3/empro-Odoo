@@ -20,9 +20,13 @@
                             </h1>
             </xpath>
 
-            <xpath expr="/form[@string='Employee']/sheet/notebook/page[3]/group/group[@string='Active']/field[@name='active']" position="after">
-                 
-                 <field name="years_hired"/>
+            <xpath expr="/form[@string='Employee']/sheet/notebook/page[3]/group" position="after">
+                    <group string="Antigueda" name="antiguedad_group">
+                         <field name="years_hired" class="oe_view_only"/>
+                          <field name="months_hired" class="oe_view_only"/>
+                          <field name="days_hired" class="oe_view_only"/>
+                    </group>
+
             </xpath>
 
 
